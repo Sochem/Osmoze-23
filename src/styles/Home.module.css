@@ -1,0 +1,42 @@
+
+.main {
+	max-width: 1440px;
+	padding: 160px;
+}
+.mainHeading {
+	font-family: "SF Pro Text";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 33px;
+	letter-spacing: 0.1em;
+	color: #121212;
+	margin: 0px;
+}
+
+.osmozeText {
+	font-family: "SF Pro Text";
+	font-style: normal;
+	font-weight: 800;
+	font-size: 64px;
+	line-height: 90px;
+	letter-spacing: 0.1em;
+	color: #1f8893;
+	margin: 0px;
+}
+
+.registerButton {
+	font-family: "SF Pro Text";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 33px;
+	color: #ffffff;
+	background: linear-gradient(99.77deg, #1cd1cc 14.44%, #6b68e5 148.04%);
+	border-radius: 8px;
+	width: 170px;
+	height: 61px;
+    border: none;
+    margin-top: 49px;
+    cursor: pointer;
+}
