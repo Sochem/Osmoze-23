@@ -1,0 +1,39 @@
+{
+    "events": [
+      {
+        "id": 1,
+        "name": "OSMOCROSS",
+        "designation": "Batch Of 2024",
+        "review": "lorem ipsum bla bla bla",
+        "type":"1"
+      },
+      {
+        "id": 2,
+        "name": "OSMOCLICK",
+        "designation": "Batch Of 2024",
+        "review": "lorem ipsum bla bla bla",
+        "type":"1"
+    },
+      {
+        "id": 3,
+        "name": "OSMOCLICK",
+        "designation": "Batch Of 2024",
+        "review": "lorem ipsum bla bla bla",
+        "type":"1"
+      },
+      {
+        "id": 4,
+        "name": "OSMOCLICK",
+        "designation": "Batch Of 2025",
+        "review": "lorem ipsum bla bla bla",
+        "type":"1"
+      },
+      {
+        "id": 5,
+        "name": "OSMOCLICK",
+        "designation": "Batch Of 2025",
+        "review": "lorem ipsum bla bla bla",
+        "type":"1"
+      }
+    ]
+}    
