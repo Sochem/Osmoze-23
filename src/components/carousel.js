@@ -4,10 +4,11 @@ export default function Carousel(){
     return(
         <div className="border-b-2 border-b-black pb-12 mt-[4.375rem] mx-[10.625rem] flex flex-col justify-start items-center">
             <div className="font-extrabold text-[36px] tracking-widest">
-                Lorem ipsum dolor sit 
+             Commemorate joy, happiness and festivity in
+
             </div>
             <div className="font-extrabold text-[64px] tracking-widest text-center">
-                Exciting <br></br> Competitions
+                Exciting <br></br> Events
             </div>
             <div className="flex justify-around mt-20">
                 <div className="mr-[4.031rem]">
