@@ -4,6 +4,7 @@
         "id": 1,
         "name": "OSMOCROSS",
         "designation": "Batch Of 2024",
+        "image":"/images/image 38.svg",
         "review": "lorem ipsum bla bla bla",
         "type":"1"
       },
@@ -11,6 +12,7 @@
         "id": 2,
         "name": "OSMOCLICK",
         "designation": "Batch Of 2024",
+        "image":"/images/Group 4632.svg",
         "review": "lorem ipsum bla bla bla",
         "type":"1"
     },
@@ -18,22 +20,81 @@
         "id": 3,
         "name": "OSMOCLICK",
         "designation": "Batch Of 2024",
+        "image":"/images/Group 4632.svg",
         "review": "lorem ipsum bla bla bla",
-        "type":"1"
+        "type":"2"
       },
       {
         "id": 4,
         "name": "OSMOCLICK",
         "designation": "Batch Of 2025",
+        "image":"/images/Group 31.svg",
         "review": "lorem ipsum bla bla bla",
-        "type":"1"
+        "type":"2"
       },
       {
         "id": 5,
         "name": "OSMOCLICK",
         "designation": "Batch Of 2025",
+        "image":"/images/image 38.svg",
         "review": "lorem ipsum bla bla bla",
-        "type":"1"
+        "type":"2"
+      },
+      {
+        "id": 6,
+        "name": "OSMOCLICK",
+        "designation": "Batch Of 2025",
+        "image":"/images/Frame.svg",
+        "review": "lorem ipsum bla bla bla",
+        "type":"2"
+      },
+      {
+        "id": 7,
+        "name": "OSMOCLICK",
+        "designation": "Batch Of 2025",
+        "image":"/images/Group 31.svg",
+        "review": "lorem ipsum bla bla bla",
+        "type":"3"
+      },
+      {
+        "id": 8,
+        "name": "OSMOCLICK",
+        "designation": "Batch Of 2025",
+        "image":"/images/image 38.svg",
+        "review": "lorem ipsum bla bla bla",
+        "type":"3"
+      },
+      {
+        "id": 9,
+        "name": "OSMOCLICK",
+        "designation": "Batch Of 2025",
+        "image":"/images/Group 4632.svg",
+        "review": "lorem ipsum bla bla bla",
+        "type":"3"
+      },
+      {
+        "id": 10,
+        "name": "OSMOCLICK",
+        "designation": "Batch Of 2025",
+        "image":"/images/Group 31.svg",
+        "review": "lorem ipsum bla bla bla",
+        "type":"4"
+      },
+      {
+        "id": 11,
+        "name": "OSMOCLICK",
+        "designation": "Batch Of 2025",
+        "image":"/images/image 38.svg",
+        "review": "lorem ipsum bla bla bla",
+        "type":"4"
+      },
+      {
+        "id": 12,
+        "name": "OSMOCLICK",
+        "designation": "Batch Of 2025",
+        "image":"/images/Group 4632.svg",
+        "review": "lorem ipsum bla bla bla",
+        "type":"5"
       }
     ]
 }    

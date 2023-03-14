@@ -9,7 +9,7 @@ export default function Hero(){
                     Chemical Extravaganza
                 </div>
                 <div className="font-extrabold text-[64px] text-[#1F8893] tracking-widest">
-                    OZMOZE '22
+                    OSMOZE '23
                 </div>
                 <div>
                     <button className="font-medium text-[24px] text-white rounded-lg px-8 py-2 bg-gradient-to-r from-[#1CD1CC] to-[#6B68E5]">

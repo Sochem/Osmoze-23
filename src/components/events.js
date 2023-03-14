@@ -4,6 +4,11 @@ const events = () => {
 
   const [type, setType] = useState({});
 
+  function handleEventClick(eventType) {
+    // alert("it works :)");
+    setType(eventType);
+  }
+
   return (
     <div>
     <section class="bg-gray-900 text-white">
@@ -26,36 +31,42 @@ const events = () => {
 
       <div class="mt-8 flex justify-center gap-4">
         <a
+          onClick={(e) => handleEventClick("10")}
           class="block w-full rounded border border-blue-600 bg-blue-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-white focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
           href="#"
         >
           ALL EVENTS
         </a>
-        <a
+        <a 
+          onClick={(e) => handleEventClick("1")}
           class="block w-full rounded border border-blue-600 bg-blue-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-white focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
           href="#"
         >
           PRE EVENTS
         </a>
         <a
+          onClick={(e) => handleEventClick("2")}
           class="block w-full rounded border border-blue-600 bg-blue-600 px-14 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-white focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
           href="#"
         >
           BIG-4
         </a>
         <a
+          onClick={(e) => handleEventClick("3")}
           class="block w-full rounded border border-blue-600 bg-blue-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-white focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
           href="#"
         >
           CORE
         </a>
         <a
+          onClick={(e) => handleEventClick("4")}
           class="block w-full rounded border border-blue-600 bg-blue-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-white focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
           href="#"
         >
           SPORTS
         </a>
         <a
+          onClick={(e) => handleEventClick("5")}
           class="block w-full rounded border border-blue-600 bg-blue-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-white focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
           href="#"
         >
