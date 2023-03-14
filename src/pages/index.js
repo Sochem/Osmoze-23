@@ -4,7 +4,7 @@ import Midbutton from "@/components/midbutton"
 import Carousel from "@/components/carousel"
 import Team from "@/components/team"
 import Sponsors from "@/components/sponsors"
-
+import Events from "@/components/events"
 export default function index() {
 	return(
     <>
@@ -16,6 +16,7 @@ export default function index() {
         <Team/>
         <Midbutton/>
         <Sponsors/>
+        {/* <Events/> */}
     </>
     )
 }
