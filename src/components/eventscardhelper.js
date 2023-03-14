@@ -10,9 +10,9 @@ export default function Card(props) {
         </p> */}
         <div>
             <Image
-            src="/images/hero-logo.svg"
-            width={230}
-            height={230}
+            src={props.image}
+            width={200}
+            height={200}
             />
         </div>
         <p className="my-4 px-2 sm:px-0 sm:mt-[3.125rem] text-justify text-[#FFFFFF] text-xs sm:text-lg overflow-auto sm:overflow-hidden sm:leading-6">
