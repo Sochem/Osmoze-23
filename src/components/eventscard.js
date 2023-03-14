@@ -9,7 +9,7 @@ const eventscard = (props) => {
 
   return (
     <div className="bg-gray-900">
-    <div className="grid grid-cols-3 gap-6">
+    <div className="grid grid-cols-3 gap-6 py-32">
       {data.events.map((item) => {
         if(type==="10"){
             return (

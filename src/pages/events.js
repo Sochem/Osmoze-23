@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
-import Cards from './eventscard'
+import Navbar from "../components/navbar"
+import Footer from "../components/footer"
+import Cards from '../components/eventscard'
 const events = () => {
 
   const [type, setType] = useState({});
@@ -11,6 +13,7 @@ const events = () => {
 
   return (
     <div>
+    <Navbar />
     <section class="bg-gray-900 text-white">
   <div
     class="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center"
@@ -77,6 +80,7 @@ const events = () => {
   </div>
 </section>
 <Cards type={type}/>
+<Footer/>
 </div>
   )
 }
