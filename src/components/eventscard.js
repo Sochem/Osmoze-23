@@ -8,10 +8,10 @@ const eventscard = (props) => {
   const type = props.type
 
   return (
-    <div className="bg-gray-600">
-      <div className="grid grid-cols-3 gap-x-8 gap-y-12 py-16">
-        {data.events.map((item) => {
-          if (type === "10") {
+    <div className="bg-[#FFFFFF]">
+    <div className="grid grid-cols-3 gapx-8 gapy-12 py-6">
+      {data.events.map((item) => {
+        if(type==="10"){
             return (
               <div>
                 <Card
