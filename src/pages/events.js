@@ -5,7 +5,13 @@ import Cards from '../components/eventscard'
 const events = () => {
 
   const [type, setType] = useState({});
-  const [icon, setIcon] = useState(false);
+  const [icon1, setIcon1] = useState(false);
+  const [icon2, setIcon2] = useState(false);
+  const [icon3, setIcon3] = useState(false);
+  const [icon4, setIcon4] = useState(false);
+  const [icon5, setIcon5] = useState(false);
+  const [icon6, setIcon6] = useState(false);
+
 
   function handleEventClick(eventType) {
     // alert("it works :)");
@@ -35,59 +41,59 @@ const events = () => {
       <div class="mt-2 flex justify-center gap-4">
         <a
           onClick={(e) => handleEventClick("10")}
-          onMouseEnter={(e) => setIcon(true)}
-          onMouseLeave={(e) => setIcon(false)}
+          onMouseEnter={(e) => setIcon1(true)}
+          onMouseLeave={(e) => setIcon1(false)}
           class="block w-full px-12 py-3 text-sm font-medium text-[#0F8FB4] hover:bg-transparent hover:text-[#7EAF4B] focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
           href="#"
           
         >
          
-          {icon ? <div>&#9209;</div> :  <div>&#9830;</div> } ALL EVENTS   
+          {icon1 ? <div>&#9209;</div> :  <div>&#9830;</div> } ALL EVENTS   
         </a>
         <a 
           onClick={(e) => handleEventClick("1")}
-          onMouseEnter={(e) => setIcon(true)}
-          onMouseLeave={(e) => setIcon(false)}
+          onMouseEnter={(e) => setIcon2(true)}
+          onMouseLeave={(e) => setIcon2(false)}
           class="block w-full px-12 py-3 text-sm font-medium text-[#0F8FB4] hover:bg-transparent hover:text-[#7EAF4B] focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
           href="#"
         >
-          {icon ? <div>&#9209;</div> :  <div>&#9830;</div> }PRE EVENTS
+          {icon2 ? <div>&#9209;</div> :  <div>&#9830;</div> }PRE EVENTS
         </a>
         <a
           onClick={(e) => handleEventClick("2")}
-          onMouseEnter={(e) => setIcon(true)}
-          onMouseLeave={(e) => setIcon(false)}
+          onMouseEnter={(e) => setIcon3(true)}
+          onMouseLeave={(e) => setIcon3(false)}
           class="block w-full px-14 py-3 text-sm font-medium text-[#0F8FB4] hover:bg-transparent hover:text-[#7EAF4B] focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
           href="#"
         >
-          {icon ? <div>&#9209;</div> :  <div>&#9830;</div> }BIG-4
+          {icon3 ? <div>&#9209;</div> :  <div>&#9830;</div> }BIG-4
         </a>
         <a
           onClick={(e) => handleEventClick("3")}
-          onMouseEnter={(e) => setIcon(true)}
-          onMouseLeave={(e) => setIcon(false)}
+          onMouseEnter={(e) => setIcon4(true)}
+          onMouseLeave={(e) => setIcon4(false)}
           class="block w-full px-12 py-3 text-sm font-medium text-[#0F8FB4] hover:bg-transparent hover:text-[#7EAF4B] focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
           href="#"
         >
-          {icon ? <div>&#9209;</div> :  <div>&#9830;</div> }CORE
+          {icon4 ? <div>&#9209;</div> :  <div>&#9830;</div> }CORE
         </a>
         <a
           onClick={(e) => handleEventClick("4")}
-          onMouseEnter={(e) => setIcon(true)}
-          onMouseLeave={(e) => setIcon(false)}
+          onMouseEnter={(e) => setIcon5(true)}
+          onMouseLeave={(e) => setIcon5(false)}
           class="block w-full px-12 py-3 text-sm font-medium text-[#0F8FB4] hover:bg-transparent hover:text-[#7EAF4B] focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
           href="#"
         >
-          {icon ? <div>&#9209;</div> :  <div>&#9830;</div> }SPORTS
+          {icon5 ? <div>&#9209;</div> :  <div>&#9830;</div> }SPORTS
         </a>
         <a
           onClick={(e) => handleEventClick("5")}
-          onMouseEnter={(e) => setIcon(true)}
-          onMouseLeave={(e) => setIcon(false)}
+          onMouseEnter={(e) => setIcon6(true)}
+          onMouseLeave={(e) => setIcon6(false)}
           class="block w-full px-12 py-3 text-sm font-medium text-[#0F8FB4] hover:bg-transparent hover:text-[#7EAF4B] focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
           href="#"
         >
-          {icon ? <div>&#9209;</div> :  <div>&#9830;</div> }ABRACADABRA
+          {icon6 ? <div>&#9209;</div> :  <div>&#9830;</div> }ABRACADABRA
         </a>
       </div>
     </div>
