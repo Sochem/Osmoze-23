@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export default function Hero(){
     return(
-        <div className="mt-[10.375rem] mx-[10.625rem] flex justify-around border-b-black border-b-2 pb-16">
+        <div className="bg-[url('/images/hero-bg.svg')] bg-cover mt-[4.375rem] mx-[10.625rem] flex justify-around border-b-black border-b-2 pb-16">
             <div className="flex flex-col justify-center items-start">
                 <div className="font-medium text-[24px] tracking-widest">
                     Welcome to Annual<br></br>
