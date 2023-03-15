@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.container {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-color: white;
+  overflow: hidden;
+  z-index: 1;
+}
+.magic {
+  position: absolute;
+  top: calc(50% - 10rem);
+  left: calc(50% - 10rem);
+  width: 10rem;
+  height: 10rem;
+  background: center center no-repeat fixed;
+  background-size: cover;
+  border-radius: 50%;
+  z-index: 5;
+  background-image: url('/images/hero-bg.png')
+}
