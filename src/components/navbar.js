@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Navbar() {
     return (
-        <div className="px-[46px] fixed w-full top-0">
+        <div className="px-[46px] fixed w-full top-0 z-50">
             <div className=" pr-6 rounded-b-2xl bg-white bg-opacity-50 backdrop-blur-lg drop-shadow-lg">
                 <div className="hidden sm:flex flex-row items-center justify-between py-1">
                     <div className="flex m-0">
@@ -55,6 +55,3 @@ export default function Navbar() {
         </div>
     );
 }
-
-
-
