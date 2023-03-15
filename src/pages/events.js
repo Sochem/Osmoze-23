@@ -20,13 +20,13 @@ const events = () => {
   return (
     <div>
     <Navbar />
-    <section class="bg-[#FFFFFF] text-[#7EAF4B]">
+    
   <div
-    class="mx-auto max-w-screen-x lg:flex lg:h-[50vh] lg:items-center border-b-black border-b-2"
+    class="title"
   >
-    <div class="mx-auto max-w-3xl text-center">
+    
       <h1
-        class="py-32 text-[#121212] text-3xl font-normal tracking-[0.1em] text-transparent sm:text-5xl"
+        class="head"
       >
         Exciting Pool Of Events
 
@@ -38,7 +38,7 @@ const events = () => {
         tenetur fuga ducimus numquam ea!
       </p> */}
 
-      <div class="mt-2 flex justify-center gap-4">
+      <div class="nav">
         <a
           onClick={(e) => handleEventClick("10")}
           onMouseEnter={(e) => setIcon1(true)}
@@ -48,7 +48,7 @@ const events = () => {
           
         >
          
-          {icon1 ? <div>&#9209;</div> :  <div>&#9830;</div> } ALL EVENTS   
+          {icon ? <div>&#9209;</div> :  <div>&#9830;</div> } ALL EVENTS   
         </a>
         <a 
           onClick={(e) => handleEventClick("1")}
@@ -95,10 +95,10 @@ const events = () => {
         >
           {icon6 ? <div>&#9209;</div> :  <div>&#9830;</div> }ABRACADABRA
         </a>
-      </div>
+      
     </div>
   </div>
-</section>
+
 <Cards type={type}/>
 <Footer/>
 </div>
