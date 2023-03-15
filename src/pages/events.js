@@ -16,7 +16,7 @@ const events = () => {
     <Navbar />
     
   <div
-    class="pt-20 md:pt-25"
+    class="title"
   >
     
       <h1
@@ -35,59 +35,60 @@ const events = () => {
       <div class="nav">
         <a
           onClick={(e) => handleEventClick("10")}
+          
           onMouseEnter={(e) => setIcon(true)}
           onMouseLeave={(e) => setIcon(false)}
-          class="block w-full px-12 py-3 text-sm font-medium text-[#0F8FB4] hover:bg-transparent hover:text-[#7EAF4B] focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
+          class="nav-items"
           href="#"
           
         >
          
-          {icon ? <div>&#9209;</div> :  <div>&#9830;</div> } ALL EVENTS   
+            <div class="hover">&#9632;</div> ALL EVENTS   
         </a>
         <a 
           onClick={(e) => handleEventClick("1")}
           onMouseEnter={(e) => setIcon(true)}
           onMouseLeave={(e) => setIcon(false)}
-          class="block w-full px-12 py-3 text-sm font-medium text-[#0F8FB4] hover:bg-transparent hover:text-[#7EAF4B] focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
+          class="nav-items"
           href="#"
         >
-          {icon ? <div>&#9209;</div> :  <div>&#9830;</div> }PRE EVENTS
+          <div class="hover">&#9632;</div>PRE EVENTS
         </a>
         <a
-          onClick={(e) => handleEventClick("2")}
+          
           onMouseEnter={(e) => setIcon(true)}
           onMouseLeave={(e) => setIcon(false)}
-          class="block w-full px-14 py-3 text-sm font-medium text-[#0F8FB4] hover:bg-transparent hover:text-[#7EAF4B] focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
+          class="nav-items"
           href="#"
         >
-          {icon ? <div>&#9209;</div> :  <div>&#9830;</div> }BIG-4
+          <div class="hover">&#9632;</div>BIG-4
         </a>
         <a
           onClick={(e) => handleEventClick("3")}
           onMouseEnter={(e) => setIcon(true)}
           onMouseLeave={(e) => setIcon(false)}
-          class="block w-full px-12 py-3 text-sm font-medium text-[#0F8FB4] hover:bg-transparent hover:text-[#7EAF4B] focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
+          class="nav-items"
           href="#"
         >
-          {icon ? <div>&#9209;</div> :  <div>&#9830;</div> }CORE
+          <div class="hover">&#9632;</div>CORE
         </a>
         <a
           onClick={(e) => handleEventClick("4")}
           onMouseEnter={(e) => setIcon(true)}
           onMouseLeave={(e) => setIcon(false)}
-          class="block w-full px-12 py-3 text-sm font-medium text-[#0F8FB4] hover:bg-transparent hover:text-[#7EAF4B] focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
+          class="nav-items"
           href="#"
         >
-          {icon ? <div>&#9209;</div> :  <div>&#9830;</div> }SPORTS
+          <div class="hover">&#9632;</div>SPORTS
         </a>
         <a
           onClick={(e) => handleEventClick("5")}
           onMouseEnter={(e) => setIcon(true)}
           onMouseLeave={(e) => setIcon(false)}
-          class="block w-full px-12 py-3 text-sm font-medium text-[#0F8FB4] hover:bg-transparent hover:text-[#7EAF4B] focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
+          class="nav-items"
           href="#"
         >
-          {icon ? <div>&#9209;</div> :  <div>&#9830;</div> }ABRACADABRA
+          <div class="hover">&#9632;</div>ABRACADABRA
         </a>
       
     </div>
