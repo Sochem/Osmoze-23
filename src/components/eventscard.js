@@ -3,13 +3,14 @@ import Card from './../components/eventscardhelper';
 import data from './../../data/data';
 
 
+
 const eventscard = (props) => {
 
   const type = props.type
 
   return (
     <div className="bg-[#FFFFFF]">
-    <div className="grid grid-cols-3 gapx-8 gapy-12 py-6">
+    <div className="cards">
       {data.events.map((item) => {
         if(type==="10"){
             return (
@@ -47,5 +48,6 @@ const eventscard = (props) => {
     </div>
   )
 }
+
 
 export default eventscard

@@ -1,8 +1,8 @@
 import Image from "next/image";
 export default function Card(props) {
     return (
-      <div className="bg-[#7EAF4B] border-[0.125rem] border-[#FFFFFF] min-w-[75%] h-auto sm:h-[20rem] sm:min-w-[31%] flex flex-col justify-start items-center mx-4 px-2 sm:px-6 py-6 2xl:px-16 sm:mx-[1.254rem] rounded-3xl">
-        <p className="font-heading font-bold text-center sm:font-semibold sm:text-[1.5rem] text-[#FFFFFF]">
+      <div className="card-inner">
+        <p className="heading">
           {props.name}
         </p>
         {/* <p className="sm:mt-[0.625rem] font-custom font-normal text-xs sm:text-[1.125rem] text-[#FFFFFF]">
@@ -15,7 +15,7 @@ export default function Card(props) {
             height={200}
             />
         </div>
-        <p className="px-2 sm:px-0 sm: text-justify text-[#FFFFFF] text-xs sm:text-lg overflow-auto sm:overflow-hidden sm:leading-6">
+        <p className="content">
           {props.review}
         </p>
       </div>

@@ -1,0 +1,41 @@
+.cards{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items:center;
+
+}
+.card-inner{
+    height: 400px;
+    width : 22vw;
+    min-width: 300px;
+    display:flex;
+    margin:30px;
+    flex-direction: column;
+    margin-top: 20px;
+    border-radius: 12px;
+    z-index: 4;
+    position: relative;
+    border-width: 15px;
+  border-color: white;
+  border-style: double;
+    
+    background:green;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    color:white;
+  justify-content:center;
+  align-items:center;
+  display:flex;
+  box-sizing:border-box;
+  border-radius: 12px 12px 0px 0px;
+  
+  padding:10px;
+  height: 80px;
+  
+  font-weight:bold;
+  font-size:20px;
+  text-align: center;
+}
