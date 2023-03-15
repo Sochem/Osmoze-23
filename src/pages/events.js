@@ -48,7 +48,7 @@ const events = () => {
           
         >
          
-          {icon ? <div>&#9209;</div> :  <div>&#9830;</div> } ALL EVENTS   
+          {icon1 ? <div>&#9209;</div> :  <div>&#9830;</div> } ALL EVENTS   
         </a>
         <a 
           onClick={(e) => handleEventClick("1")}
