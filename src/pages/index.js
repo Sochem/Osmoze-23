@@ -4,7 +4,6 @@ import Midbutton from "@/components/midbutton"
 import Carousel from "@/components/carousel"
 import Team from "@/components/team"
 import Sponsors from "@/components/sponsors"
-import Events from "@/pages/events"
 import Navbar from "@/components/navbar"
 import Footer from "@/components/footer"
 
@@ -21,7 +20,6 @@ export default function index() {
         <Midbutton/>
         <Sponsors/>
         <Footer/>
-        {/* <Events/> */}
     </>
     )
 }
