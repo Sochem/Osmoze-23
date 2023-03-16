@@ -5,19 +5,20 @@ export default function Card(props) {
         <p className="heading">
           {props.name}
         </p>
-        {/* <p className="sm:mt-[0.625rem] font-custom font-normal text-xs sm:text-[1.125rem] text-[#FFFFFF]">
+        <p className="sm:mt-[0.625rem] font-custom font-normal text-xs sm:text-[1.125rem] text-[#FFFFFF]">
           {props.designation}
-        </p> */}
+        </p>
         <div>
             <Image
+            alt="Image"
             src={props.image}
             width={200}
             height={200}
             />
         </div>
-        <p className="content">
-          {props.review}
-        </p>
+        <a className="content py-2" href={props.review}>
+          Link
+        </a>
       </div>
     );
   }

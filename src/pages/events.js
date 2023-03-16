@@ -7,8 +7,10 @@ import db from '../firebase/config'
 import { async } from '@firebase/util'
 const events = () => {
 
-  const [type, setType] = useState({});
+  const [type, setType] = useState("1");
   const [icon, setIcon] = useState(false);
+  const [docData, setDocData] = useState([]);
+
   useEffect(() => {
     ;(async () => {
       const collectionReference = collection(db, "Events");
@@ -18,9 +20,10 @@ const events = () => {
         data.id = doc.id;
         return data;
       });
-      console.log(docs);
+      setDocData(docs);
     })()
   }, [])
+
   function handleEventClick(eventType) {
     // alert("it works :)");
     setType(eventType);
@@ -48,7 +51,7 @@ const events = () => {
 
       <div class="nav">
         <a
-          onClick={(e) => handleEventClick("10")}
+          onClick={(e) => handleEventClick("1")}
           
           onMouseEnter={(e) => setIcon(true)}
           onMouseLeave={(e) => setIcon(false)}
@@ -108,7 +111,7 @@ const events = () => {
     </div>
   </div>
 
-<Cards type={type}/>
+<Cards type={type} docs={docData} />
 <Footer/>
 </div>
   )
