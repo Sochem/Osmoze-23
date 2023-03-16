@@ -19,7 +19,7 @@
 
 .navSection {
     transition: opacity 1s ease;
-    opacity: 0;
+    opacity: 1;
 }
 
 .mainImage {
@@ -47,6 +47,11 @@
 .gradient-mine {
     background: rgb(18, 16, 43);
     background: linear-gradient(rgba(18, 16, 43, 1) 4%, rgba(43, 38, 75, 1) 13%, rgba(76, 63, 144, 1) 24%, rgba(54, 72, 161, 1) 48%, rgba(58, 98, 179, 1) 77%, rgba(76, 53, 186, 1) 100%, rgba(0, 212, 255, 1) 100%);
+}
+
+.mainAll{
+    background:  #FFDB01;
+    transition: background 1s ease;
 }
 
 @keyframes fadeIn {
