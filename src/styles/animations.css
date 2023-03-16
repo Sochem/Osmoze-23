@@ -50,7 +50,18 @@
 }
 
 .mainAll{
-    background:  #FFDB01;
+    /* background:  #FFDB01; */
+    transition: background 1s ease;
+}
+.circle{
+    /* h-[654px] w-[654px] flex justify-center rounded-full mb-[118px] */
+    height: 654px;
+    width: 654px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    margin-bottom: 118px;
+    /* background-color: white; */
     transition: background 1s ease;
 }
 

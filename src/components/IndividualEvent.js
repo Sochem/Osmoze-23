@@ -5,18 +5,45 @@ import { useEffect } from "react";
 import Footer from "./footer";
 
 export default function IndividualEvent() {
+	const type = 4;
+	let color = "";
+	if(type==1)
+	{
+		color = "188457"
+	}
+	if(type==2)
+	{
+		color = "4557B4"
+	}
+	if(type==3)
+	{
+		color = "1A97BA"
+	}
+	if(type==4)
+	{
+		color = "1F8893"
+	}
+	if(type==5)
+	{
+		color = "C9522D"
+	}
 	useEffect(() => {
 		window.addEventListener("scroll", () => {
 			let scroll = window.scrollY;
 			let body = document.querySelector(".mainAll");
-			if (scroll > 150) {
+			let circle = document.querySelector(".circle");
+			circle.style.background = "#"+color;
+
+			if (scroll <= 300) {
+				body.style.background = "#"+color;
+				// body.style.background = "#FFDB01";
+				body.style.opacity = "1";
+			}
+			else{
 				body.style.background = "white";
 				body.style.opacity = "1";
 			}
-			if (scroll < 150) {
-				body.style.background = "#FFDB01";
-				body.style.opacity = "1";
-			}
+			
 		});
 	}, []);
 
@@ -25,7 +52,7 @@ export default function IndividualEvent() {
 			<Navbar/>
 			<div className="px-40 w-full pb-[55px] flex flex-col items-center h-auto pt-36">
 				<div className=" text-6xl font-bold">ADHYAN</div>
-				<div className=" bg-[#FFDB01] h-[654px] w-[654px] flex justify-center rounded-full mb-[118px]">
+				<div className="circle">
 					<Image
 						className=" z-5"
 						src="/images/events.svg"
