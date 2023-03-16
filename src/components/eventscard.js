@@ -15,12 +15,13 @@ const eventscard = (props) => {
     <div className="cards">
       {data.map((item) => {
         if(item.Type===type){
+          console.log(item.Cover);
             return (
               <div>
                 <Card
                   key={item.id}
                   name={item.Title}
-                  // image={item.Cover}
+                  image={item.Cover}
                   designation={item.description}
                   review={item.RegistrationLink}
                 />
