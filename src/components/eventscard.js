@@ -27,19 +27,6 @@ const eventscard = (props) => {
               </div>
             );
           }
-          else if (item.type === type) {
-            return (
-              <div>
-                <Card
-                  key={item.id}
-                  name={item.name}
-                  image={item.image}
-                  designation={item.designation}
-                  review={item.review}
-                />
-              </div>
-            );
-          }
           else {
             return (
               <></>
