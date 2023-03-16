@@ -27,7 +27,7 @@ export default function Navbar() {
                         </div>
 
                         <div>
-                            <Link href="/announcement">
+                            <Link href="/comingsoon">
                                 <button className="2xl:text-xl underline-offset-4 hover:underline">
                                     ANNOUNCEMENT
                                 </button>
@@ -35,7 +35,7 @@ export default function Navbar() {
                         </div>
 
                         <div>
-                            <Link href="/aboutUs">
+                            <Link href="/comingsoon">
                                 <button className="2xl:text-xl underline-offset-4 hover:underline">
                                     ABOUT US
                                 </button>
@@ -43,7 +43,7 @@ export default function Navbar() {
                         </div>
 
                         <div>
-                            <Link href="/team">
+                            <Link href="/comingsoon">
                                 <button className="2xl:text-xl underline-offset-4 hover:underline">
                                     TEAM
                                 </button>

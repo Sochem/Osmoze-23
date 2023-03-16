@@ -17,8 +17,8 @@ export default function Navbar() {
 				<div  className="img"><Link href="https://www.linkedin.com"><Image src="/images/social3.svg" width={40} height={40}/></Link></div>
 				</div>
 				<div className="footer-text-3">
-					<div className="contact"><div className="cc">Contact</div><br></br>9199999999</div>
-					<div className="contact"><div className="cc">Contact</div><br></br>9199999999</div>
+					<div className="contact"><div className="cc">Aditya Kumar Singh</div><br></br>+91 9507510924</div>
+					<div className="contact"><div className="cc">Prince</div><br></br>+91 9065765411</div>
 				</div>
 			</div>
 			</div>

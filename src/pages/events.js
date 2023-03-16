@@ -72,7 +72,7 @@ const events = () => {
           <div class="hover">&#9632;</div>PRE EVENTS
         </a>
         <a
-          
+          onClick={(e) => handleEventClick("2")}
           onMouseEnter={(e) => setIcon(true)}
           onMouseLeave={(e) => setIcon(false)}
           class="nav-items"

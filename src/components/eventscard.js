@@ -17,6 +17,7 @@ const eventscard = (props) => {
         if(item.Type===type){
           console.log(item.Cover);
             return (
+              <a href="#">
               <div>
                 <Card
                   key={item.id}
@@ -26,6 +27,7 @@ const eventscard = (props) => {
                   review={item.RegistrationLink}
                 />
               </div>
+              </a>
             );
           }
           else {
