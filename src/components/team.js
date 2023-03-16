@@ -8,7 +8,7 @@ export default function Team(){
                 <div className="text-left ml-12 font-extrabold text-[36px] tracking-widest">Know the amazing<br></br> individuals who make <br></br>our team a winning<br></br>combination.</div>
             </div>
             <div className="flex justify-center mt-[7rem]">
-                <Image src={"/images/team.svg"} width={1090} height={524}/>
+                <Image src={"/images/group photo.svg"} width={1090} height={524}/>
             </div>
         </div>
     )
