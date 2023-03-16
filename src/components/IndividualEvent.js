@@ -1,21 +1,37 @@
 import Link from "next/link";
 import Image from "next/image";
 import Navbar from "./navbar";
+import { useEffect } from "react";
 import Footer from "./footer";
 
 export default function IndividualEvent() {
-	let color = "FFDB01";
+	useEffect(() => {
+		window.addEventListener("scroll", () => {
+			let scroll = window.scrollY;
+			let body = document.querySelector(".mainAll");
+			if (scroll > 150) {
+				body.style.background = "white";
+				body.style.opacity = "1";
+			}
+			if (scroll < 150) {
+				body.style.background = "#FFDB01";
+				body.style.opacity = "1";
+			}
+		});
+	}, []);
+
 	return (
-		<>
-			<Navbar />
-			<div className="px-40 w-full bg-[#`${color}`] pb-[55px] flex flex-col items-center h-auto pt-44">
-				<div className=" text-6xl font-bold pb-16">ADHYAN</div>
+		<div className="mainAll">
+			<Navbar/>
+			<div className="px-40 w-full pb-[55px] flex flex-col items-center h-auto pt-36">
+				<div className=" text-6xl font-bold">ADHYAN</div>
 				<div className=" bg-[#FFDB01] h-[654px] w-[654px] flex justify-center rounded-full mb-[118px]">
 					<Image
-						className=" z-50"
+						className=" z-5"
 						src="/images/events.svg"
 						height={508}
 						width={508}
+						alt="image"
 					/>
 				</div>
 				<div className=" text-4xl font-light text-justify items-center flex flex-col">
@@ -47,6 +63,6 @@ export default function IndividualEvent() {
 				</div>
 			</div>
 			<Footer />
-		</>
+		</div>
 	);
 }
