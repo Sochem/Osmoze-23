@@ -15,7 +15,7 @@ export default function Hero(){
     },[])
 
     return(
-        <div className="relative overflow-hidden z-10 pt-12">
+        <div className="relative overflow-hidden z-10 mt-[14rem] pt-12 heroSection h-screen">
             <div className="magic"></div>
             <div className="mt-[6rem] mx-[10.625rem] flex justify-around border-b-black border-b-2 pb-16">
                 <div className="z-20 flex flex-col justify-center items-start">
