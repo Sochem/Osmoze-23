@@ -1,7 +1,10 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
+import { collection, doc, getDocs } from 'firebase/firestore'
 import Navbar from "../components/navbar"
 import Footer from "../components/footer"
 import Cards from '../components/eventscard'
+import db from '../firebase/config'
+import { async } from '@firebase/util'
 const events = () => {
 
   const [type, setType] = useState({});
@@ -12,7 +15,18 @@ const events = () => {
   const [icon5, setIcon5] = useState(false);
   const [icon6, setIcon6] = useState(false);
 
-
+  useEffect(() => {
+    ;(async () => {
+      const collectionReference = collection(db, "Events");
+      const snaps = await getDocs(collectionReference);
+      const docs = snaps.docs.map((doc) => {
+        const data = doc.data();
+        data.id = doc.id;
+        return data;
+      });
+      console.log(docs);
+    })()
+  }, [])
   function handleEventClick(eventType) {
     // alert("it works :)");
     setType(eventType);

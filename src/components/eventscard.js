@@ -14,6 +14,7 @@ const eventscard = (props) => {
       {data.events.map((item) => {
         if(type==="10"){
             return (
+              <a href="#">
               <div>
                 <Card
                   key={item.id}
@@ -23,10 +24,12 @@ const eventscard = (props) => {
                   review={item.review}
                 />
               </div>
+              </a>
             );
           }
           else if (item.type === type) {
             return (
+                <a href="#">
               <div>
                 <Card
                   key={item.id}
@@ -36,6 +39,7 @@ const eventscard = (props) => {
                   review={item.review}
                 />
               </div>
+              </a>
             );
           }
           else {

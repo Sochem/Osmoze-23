@@ -1,7 +1,7 @@
 import EventComponent from "@/components/IndividualEvent.js"
 
 
-export default function eventPageTest() {
+export default function etest() {
 	return (
 		<EventComponent/>
 	);
