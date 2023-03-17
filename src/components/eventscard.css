@@ -197,7 +197,7 @@
   
 }
 .text-1{
-  font-size:36px;
+  font-size:34px;
   font-weight:800;
   text-align: center;
   flex-wrap:wrap;
@@ -211,14 +211,14 @@
 
 }
 #expandable{
-  margin-top: 100px;
+  margin-top: 50px;
   justify-content: center;
   align-items: center;
   display: flex;
   flex-direction:column;
   transform-origin: center top;
   flex-wrap: wrap;
-  margin-bottom:100px;
+  margin-bottom:20px;
   transform: none;
   
 }
