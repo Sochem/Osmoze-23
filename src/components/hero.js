@@ -9,13 +9,13 @@ export default function Hero(){
 
         document.body.addEventListener('mousemove',function(e){
             magic.style.left = e.pageX - magicWHalf+'px';
-            magic.style.top = e.pageY - magicWHalf+'px';
+            magic.style.top = e.pageY - magicWHalf - 530 +'px';
         });
         
     },[])
 
     return(
-        <div className="relative overflow-hidden z-10 mt-[14rem] pt-12 heroSection h-screen">
+        <div className="relative overflow-hidden z-10 heroSection h-screen">
             <div className="magic"></div>
             <div className="mt-[6rem] mx-[10.625rem] flex justify-around border-b-black border-b-2 pb-16">
                 <div className="z-20 flex flex-col justify-center items-start">
