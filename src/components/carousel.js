@@ -24,7 +24,7 @@ export default function Carousel(){
 
             </div>
             <div className="text-2">
-                exciting <br></br>&nbsp; &nbsp; &nbsp; events.
+                Exciting <br></br>&nbsp; &nbsp; &nbsp; Events.
             </div>
             </motion.h1>
            
