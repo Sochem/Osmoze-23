@@ -52,7 +52,7 @@ export default function index() {
 	return (
         <div className="body">
         {/* <Default /> */}
-        <div className="mainImage mt-[8rem]">
+        <div className="mainImage h-screen">
             <Image src={"/images/hero-logo.svg"} width={401} height={401}  />
         </div>
         <Navbar/> 
