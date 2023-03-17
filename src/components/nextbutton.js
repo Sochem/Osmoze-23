@@ -9,7 +9,7 @@ export default function NextButton(){
 animate={{ opacity: 1 }}
 transition={{ duration:3,delay:7 }}
 >
-            Explore all events <br></br>and sessions of<br></br>this year
+            Explore all events <br></br>and sessions <br></br> &nbsp;&nbsp;
             </motion.div>
             </div>
             <button>

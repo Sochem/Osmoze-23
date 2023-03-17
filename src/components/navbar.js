@@ -27,7 +27,7 @@ export default function Navbar() {
                         </div>
 
                         <div>
-                            <Link href="/comingsoon">
+                            <Link href="https://www.instagram.com/sochem_iitbhu/?hl=en">
                                 <button className="2xl:text-xl underline-offset-4 hover:underline">
                                     ANNOUNCEMENT
                                 </button>
