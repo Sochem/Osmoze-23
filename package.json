@@ -11,9 +11,11 @@
   "dependencies": {
     "@next/font": "^13.2.4",
     "firebase": "^9.17.2",
+    "framer-motion": "^10.5.0",
     "next": "^13.2.4",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-intersection-observer": "^9.4.3"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",

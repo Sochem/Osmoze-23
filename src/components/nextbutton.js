@@ -1,15 +1,15 @@
 import Image from "next/image";
 import { delay, motion } from "framer-motion";
 
-export default function Midbutton(){
+export default function NextButton(){
     return(
         <div className="text-button">
             <div className="text-2-button">
                 <motion.div initial={{ opacity: 0 }}
 animate={{ opacity: 1 }}
-transition={{ duration:3,delay:4 }}
+transition={{ duration:3,delay:7 }}
 >
-            Click to explore the <br></br>Day of the Festival!
+            Explore all events <br></br>and sessions of<br></br>this year
             </motion.div>
             </div>
             <button>
@@ -19,7 +19,7 @@ transition={{ duration:3,delay:4 }}
     opacity:1
   }}
   initial={{opacity:0}}
-  transition={{duration:3,delay:4}}
+  transition={{duration:3,delay:7}}
 >
                 <Image src={"/images/midbutton.svg"} width={82} height={82}/>
                 </motion.div>
