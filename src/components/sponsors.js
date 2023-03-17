@@ -11,7 +11,7 @@ const sponsors = [
 ]
 
 const list = ['gfg logo.png','yog4lyf.png','irc.jpeg']
-
+const name=['GFG', "Yog4lyf", "IRC"]
 const sponsorsPhone = [
     ['gfg logo.png'],
     ['yog4lyf.png'],
@@ -22,7 +22,7 @@ function Element(props) {
     return (
         <div>
             <img src={`/images/${props.src}`} />
-            <p className="legend">"Name"</p>
+            {/* <p className="legend">"Name"</p> */}
         </div>
     )
 }
