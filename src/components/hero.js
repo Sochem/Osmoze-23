@@ -28,7 +28,7 @@ export default function Hero(){
                     </div>
                     <div>
                         <button className="font-medium text-[24px] text-white rounded-lg px-8 py-2 bg-gradient-to-r from-[#1CD1CC] to-[#6B68E5]">
-                            Register
+                            Registrations will open soon!
                         </button>
                     </div>
                 </div>
