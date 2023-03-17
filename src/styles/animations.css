@@ -13,8 +13,8 @@
 }
 
 .heroSection {
-    transition: opacity 1s ease;
-    opacity: 0;
+    
+    opacity: 1;
 }
 
 .navSection {

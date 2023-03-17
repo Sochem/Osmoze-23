@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React, { useEffect } from 'react';
-import { motion } from "framer-motion";
+
 
 
 
@@ -8,17 +8,7 @@ export default function Carousel(){
     return(
         <div className="carousel">
             <div id="expandable">
-            <motion.h1
-                animate={{ x: [50, 150, 50], opacity: 1, scale: 1 }}
-                transition={{
-                    duration: 5,
-                    delay: 5,
-                    ease: [0.5,0.71,1, 1.5],
-                    
-                }}
-                initial={{ opacity: 0, scale: 0.5 }}
-                whileHover={{ scale: 1.2 }}
-            >
+            
             <div className="text-1">
              Commemorate joy, happiness and festivity in
 
@@ -26,7 +16,7 @@ export default function Carousel(){
             <div className="text-2">
                 Exciting <br></br>&nbsp; &nbsp; &nbsp; Events.
             </div>
-            </motion.h1>
+            
            
             </div>
 
