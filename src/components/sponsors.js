@@ -28,21 +28,10 @@ export default function Sponsors(){
 
     return(
         <div className="flex flex-col items-center pb-12 mt-[14rem] mx-[10.625rem]">
-            <motion.h1
-                animate={{ x: [50, 150, 50], opacity: 1, scale: 1 }}
-                transition={{
-                    duration: 5,
-                    delay: 0.3,
-                    ease: [0.5,0.71,1, 1.5],
-                    delay:10
-                }}
-                viewport={{ once: true }}
-                initial={{ opacity: 0, scale: 0.5 }}
-                whileHover={{ scale: 1.2 }}
-            >
+            
             <div className="font-extrabold items-center text-center text-[36px] tracking-wider">Meet our</div>
             <div className="font-extrabold items-center text-center text-[64px] tracking-wider">sponsors</div>
-            </motion.h1>
+            
             <div className="flex justify-around mt-32 items-center">
                 <div>
                     <button onClick={handleLeftClick}>

@@ -25,14 +25,14 @@
     
     position: relative;
     border-width: 15px;
-    border:4px solid green;
+    border:4px solid black;
     
     
-    background:green;
+    background:#753B;
     justify-content: center;
     align-items: center;
     --notchSize: 30px;
-    background-color:green;
+    background-color:#753B9C;
   
   clip-path: 
   
@@ -59,8 +59,8 @@
   padding:10px;
   height: 80px;
   
-  font-weight:bold;
-  font-size:20px;
+  font-weight:400;
+  font-size:24px;
   text-align: center;
 }
 .content{
@@ -228,6 +228,7 @@
   font-weight:500;
   text-align: right;
 }
+
 
   
 

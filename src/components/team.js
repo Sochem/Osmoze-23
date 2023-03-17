@@ -7,18 +7,7 @@ export default function Team(){
             
             <div className="flex justify-center">
            
-            <motion.h1
-                animate={{ x: [50, 150, 50], opacity: 1, scale: 1 }}
-                transition={{
-                    duration: 5,
-                    delay: 0.3,
-                    ease: [0.5,0.71,1, 1.5],
-                    delay:8
-                }}
-                viewport={{ once: true }}
-                initial={{ opacity: 0, scale: 0.5 }}
-                whileHover={{ scale: 1.2 }}
-            ><div className="text-right mr-12 font-extrabold text-[64px] tracking-widest">Meet the Team <br></br>2022-23</div></motion.h1>
+            <div className="text-right mr-12 font-extrabold text-[64px] tracking-widest">Meet the Team <br></br>2022-23</div>
                 <div className="px-16 text-left ml-12 font-extrabold text-[36px] tracking-widest">Know the amazing<br></br> individuals who make <br></br>our team a winning<br></br>combination.</div>
                 
             </div>
