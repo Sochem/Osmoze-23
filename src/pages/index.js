@@ -58,11 +58,11 @@ export default function index() {
         <Navbar/> 
         <Hero/>
         <Mid/>
-        <Midbutton/>
+        
         <Carousel/>
         <NextButton/>
         <Team/>
-        <Midbutton/>
+        <NextButton/>
         <Sponsors/>
         <Footer/>
     </div>
