@@ -19,11 +19,11 @@ export default function Carousel(){
                 initial={{ opacity: 0, scale: 0.5 }}
                 whileHover={{ scale: 1.2 }}
             >
-            <div className="text-1">
-             Commemorate joy, happiness and festivity in
+            <div className="sm:text-1">
+             Commemorate joy, <br></br>happiness and festivity in
 
             </div>
-            <div className="text-2">
+            <div className="sm:text-2">
                 Exciting <br></br>&nbsp; &nbsp; &nbsp; Events.
             </div>
             </motion.h1>
@@ -31,7 +31,7 @@ export default function Carousel(){
             </div>
 
             
-            <div className="border-b-2 border-b-black pb-12 mt-[4.375rem] mx-[10.625rem] flex flex-col justify-start items-center">
+        <div className="hidden border-b-2 border-b-black pb-12 mt-[4.375rem] mx-[10.625rem] sm:flex flex-col justify-start items-center">
             <div className="flex justify-around mt-20">
                 <div className="mr-[4.031rem]">
                 <Image src={"/images/osmoclick.svg"} width={495} height={603}/>
@@ -61,6 +61,23 @@ export default function Carousel(){
                     </div>
                 </div>
             </div>
+        </div>
+        <div className="flex flex-col items-center sm:hidden">
+                <div>
+                    <Image src={'/images/chemcoding.svg'} width={233} height={255}/>
+                    <p className="pt-2 text-center">Loren impsum</p>
+                </div>
+                <div>
+                    <Image src={'/images/osmoclick.svg'} width={233} height={255}/>
+                    <p className="pt-2 text-center">Loren impsum</p>
+                </div>
+                <div>
+                    <Image src={'/images/chess.svg'} width={233} height={255}/>
+                    <p className="pt-2 text-center">Loren impsum</p>
+                </div>
+                <div className="pt-4 mb-12 text-center text-[32px] font-extrabold tracing-widest">
+                    Memories<br></br>and learnings<br></br>woven together
+                </div>
         </div>
         </div>
     )
