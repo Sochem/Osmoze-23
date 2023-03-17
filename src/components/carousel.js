@@ -32,7 +32,7 @@ export default function Carousel() {
                     <div className="mr-[2.906rem]">
                         <Image src={"/images/chemcoding.svg"} width={551} height={741} />
                         <div className="tracking-widest text-[20px] font-medium">Prove That AI Still Needs To Catch Up <br></br> A Coding Competition</div>
-                        <div className="font-extrabold text-[64px] tracking-widest mt-12">
+                        <div className="font-extrabold text-[48px] tracking-widest mt-12">
                             Memories <br></br> and learnings <br></br>woven together!
                         </div>
                     </div>
@@ -48,23 +48,7 @@ export default function Carousel() {
                     </div>
                 </div>
             </div>
-            <div className="flex flex-col items-center sm:hidden">
-                <div>
-                    <Image src={'/images/chemcoding.svg'} width={233} height={255} />
-                    <p className="pt-2 text-center">Loren impsum</p>
-                </div>
-                <div>
-                    <Image src={'/images/osmoclick.svg'} width={233} height={255} />
-                    <p className="pt-2 text-center">Loren impsum</p>
-                </div>
-                <div>
-                    <Image src={'/images/chess.svg'} width={233} height={255} />
-                    <p className="pt-2 text-center">Loren impsum</p>
-                </div>
-                <div className="pt-4 mb-12 text-center text-[32px] font-extrabold tracing-widest">
-                    Memories<br></br>and learnings<br></br>woven together
-                </div>
-            </div>
+            
         </div>
     )
 }
