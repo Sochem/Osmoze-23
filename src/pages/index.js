@@ -34,11 +34,11 @@ export default function index() {
                 heroSection.style.opacity = "1";
                 navSection.style.opacity = "1";
                 mainImage.style.opacity = "0";
-            } else if (scroll >= 980 && scroll < 2000) {
+            } else if (scroll >= 980 && scroll < 1750) {
                 heroSection.style.opacity = "0";
                 midSection.classList.add("gradient-scroll-animation");
                 midSection.style.opacity = "1";
-            } else if (scroll >= 1500) {
+            } else if (scroll >= 1750) {
                 body.style.background = "white";
                 // midSection.classList.remove("gradient-scroll-animation");
                 // midSection.style.marginBottom = "2rem";
@@ -58,7 +58,7 @@ export default function index() {
         <Navbar/> 
         <Hero/>
         <Mid/>
-        
+        <NextButton/>        
         <Carousel/>
         <NextButton/>
         <Team/>

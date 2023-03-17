@@ -39,7 +39,7 @@
 }
 
 .gradient-scroll-animation {
-    position: sticky;
+    /*position: sticky;*/
     top: 100px;
 
 }
