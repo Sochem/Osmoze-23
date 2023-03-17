@@ -10,7 +10,7 @@ export default function Navbar() {
 				</div>
 
 				<div className="text">
-					<div className="footer-text">Osmoze'23</div>
+					<div className="footer-text"><b>Osmoze'23</b></div>
 					<div className="footer-text-2">
 						<div className="img"><Link href="https://www.facebook.com"><Image src="/images/social1.svg" width={40} height={40} /></Link></div>
 						<div className="img"><Link href="https://www.instagram.com"><Image src="/images/social2.svg" width={40} height={40} /></Link></div>
