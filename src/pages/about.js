@@ -1,56 +1,66 @@
+import Navbar from '@/components/navbar'
+import Footer from "../components/footer"
 import React from 'react'
-import Image from "next/image";
-
-const styles = {
-    maincontent:{
-        display: "flex"
-
-
-    },
-    contentright: {
-        display: "flex"
-
-    },
-    contentleft:{
-        display: "flex"
-
-    }
-  };
-
-const mystyle = {
-    color: "white",
-    backgroundImage: "url('./team.svg')",
-    backgroundColor: "DodgerBlue",
-    fontFamily: "Arial"
-};
+import Image from "next/image"
 
 const about = () => {
     return (
         <div>
-            <div className='headingmain'
-                style={mystyle}><div className='aboutdata'></div>
-            </div>
+  {/* Hello world */}
+  <Navbar></Navbar>
+  <div>
+  <section className="section2" id="AboutUs">
+    <table className='mt-[17rem]'>
+      <tbody>
+        <tr>
+          <td>
+          <Image src={"/images/image 38.svg"} width={720} height={593} style ={{background: "#7EAF4B"}}/>
+          </td>
+          <td>
+            <span className="title1">About Us</span>
+            <span className="sub-title">
+            Who are we?
+            </span>
+            <p>
+            The society involves various budding chemical engineers from all the years. The society provides a platform for students to improve on their skills & personality. It also brings back the experience of our esteemed alumni for the benefit of the students. Various activities such as workshops, GDs, case studies, placement & internship sessions are organized by the society throughout the year.
+            </p>
+            <p>
+            The society also organizes its departmental fest: Osmoze once in a year which extract out the prestigious innovations of students.
+            </p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+  <section className="section3" id="OurMission">
+    <table>
+      <tbody>
+        <tr>
+          <td>
+            <span className="title2">Our Mission</span>
+            <p>
+            The society involves various budding chemical engineers from all the years. The society provides a platform for students to improve on their skills & personality. It also brings back the experience of our esteemed alumni for the benefit of the students. Various activities such as workshops, GDs, case studies, placement & internship sessions are organized by the society throughout the year.
 
-            <div className='maincontent' style={styles.maincontent}>
-                <div className='contentleft' style={styles.contentleft}>
-                <img src="https://picsum.photos/200/300" alt="" />
-                </div>
-                <div className='contentright' style={styles.contentright}>
-                    <h1>Our Vision</h1>
-                    <p>The society involves various budding chemical engineers from all the years. The society provides a platform for students to improve on their skills & personality. It also brings back the experience of our esteemed alumni for the benefit of the students. Various activities such as workshops, GDs, case studies, placement & internship sessions are organized by the society throughout the year.
-                        The society also organizes its departmental fest: Osmoze once in a year which extract out the prestigious innovations of students.</p>
-                </div>
-                <div className='contentleft' style={styles.contentleft}>
-                <img src="https://picsum.photos/200/300" alt="" />
-                </div>
-                <div className='contentright' style={styles.contentright}>
-                    <h1>Our Vision</h1>
-                    <p>The society involves various budding chemical engineers from all the years. The society provides a platform for students to improve on their skills & personality. It also brings back the experience of our esteemed alumni for the benefit of the students. Various activities such as workshops, GDs, case studies, placement & internship sessions are organized by the society throughout the year.
-                        The society also organizes its departmental fest: Osmoze once in a year which extract out the prestigious innovations of students.</p>
-                </div>
-            </div>
+            </p>
+            <p>
+            The society also organizes its departmental fest: Osmoze once in a year which extract out the prestigious innovations of students.
 
-        </div>
+            </p>
+          </td>
+          <td>
+           <Image src={"/images/Group 4678.svg"} width={720} height={593} style ={{background: "#FFB109"}}/>
+          </td>
+        </tr>
+      </tbody>
+      {/* <Footer> </Footer> */}
+    </table>
+  
+  
+  </section>
+  </div>
+  <Footer> </Footer>
+</div>
+
     )
 }
 
