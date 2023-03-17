@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { delay, motion } from "framer-motion";
+// import { delay, motion } from "framer-motion";
 
 export default function NextButton(){
     return(
