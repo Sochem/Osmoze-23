@@ -19,7 +19,7 @@ export default function Navbar() {
 
                     <div className="justify-end hidden items-center sm:flex space-x-12 2xl:space-x-16 font-medium">
                         <div>
-                            <Link href="/events">
+                            <Link href="/comingsoon">
                                 <button className="2xl:text-xl underline-offset-4 hover:underline">
                                     EVENTS
                                 </button>
