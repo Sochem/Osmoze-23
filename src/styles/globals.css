@@ -12,13 +12,11 @@
 }
 .magic {
   position: absolute;
-  top: calc(50% - 10rem);
-  left: calc(50% - 10rem);
   width: 10rem;
   height: 10rem;
   background: center center no-repeat fixed;
   background-size: cover;
   border-radius: 50%;
-  z-index: 5;
+  z-index: 20;
   background-image: url('/images/hero-bg.png')
 }
