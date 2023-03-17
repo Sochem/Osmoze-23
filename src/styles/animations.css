@@ -64,6 +64,9 @@
     /* background-color: white; */
     transition: background 1s ease;
 }
+.content1{
+    margin-bottom: 0px;
+}
 
 @keyframes fadeIn {
     0% {
