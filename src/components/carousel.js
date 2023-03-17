@@ -1,15 +1,37 @@
 import Image from "next/image";
+import React, { useEffect } from 'react';
+import { motion } from "framer-motion";
+
+
 
 export default function Carousel(){
     return(
-        <div className="border-b-2 border-b-black pb-12 mt-[4.375rem] mx-[10.625rem] flex flex-col justify-start items-center">
-            <div className="font-extrabold text-[36px] tracking-widest">
+        <div className="carousel">
+            <div id="expandable">
+            <motion.h1
+                animate={{ x: [50, 150, 50], opacity: 1, scale: 1 }}
+                transition={{
+                    duration: 5,
+                    delay: 5,
+                    ease: [0.5,0.71,1, 1.5],
+                    
+                }}
+                initial={{ opacity: 0, scale: 0.5 }}
+                whileHover={{ scale: 1.2 }}
+            >
+            <div className="text-1">
              Commemorate joy, happiness and festivity in
 
             </div>
-            <div className="font-extrabold text-[64px] tracking-widest text-center">
-                Exciting <br></br> Events
+            <div className="text-2">
+                exciting <br></br>&nbsp; &nbsp; &nbsp; events.
             </div>
+            </motion.h1>
+           
+            </div>
+
+            
+            <div className="border-b-2 border-b-black pb-12 mt-[4.375rem] mx-[10.625rem] flex flex-col justify-start items-center">
             <div className="flex justify-around mt-20">
                 <div className="mr-[4.031rem]">
                 <Image src={"/images/osmoclick.svg"} width={495} height={603}/>
@@ -39,6 +61,7 @@ export default function Carousel(){
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     )
 }

@@ -190,3 +190,49 @@
   
   
 }
+.text-1{
+  font-size:36px;
+  font-weight:800;
+  text-align: center;
+  flex-wrap:wrap;
+
+}
+.text-2{
+  font-size:64px;
+  font-weight:800;
+  text-align: center;
+  flex-wrap:wrap;
+
+}
+#expandable{
+  margin-top: 100px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction:column;
+  transform-origin: center top;
+  flex-wrap: wrap;
+  margin-bottom:100px;
+  transform: none;
+  
+}
+.text-button{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  text-align: right;
+  
+}
+.text-2-button{
+  font-size:24px;
+  font-weight:500;
+  text-align: right;
+}
+
+  
+
+
+
+
+  
+
