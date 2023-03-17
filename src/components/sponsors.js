@@ -3,7 +3,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 
 const sponsors = [
-    ['sponsor.svg','sponsor.svg','sponsor.svg'],
+    ['gfg logo.png','yog4lyf.png','irc.jpeg'],
     ['sponsor.svg','sponsor.svg','sponsor.svg']
 ]
 
