@@ -8,7 +8,7 @@ export default function Carousel(){
     return(
         <div className="carousel">
             <div id="expandable">
-             
+
             <div className="text-1">
              Commemorate joy, <br></br>happiness and festivity in
 
@@ -16,11 +16,11 @@ export default function Carousel(){
             <div className="text-2">
                 Exciting <br></br>&nbsp; &nbsp; &nbsp; Events.
             </div>
-            
-           
+
+
             </div>
 
-            
+
         <div className="hidden border-b-2 border-b-black pb-12 mt-[4.375rem] mx-[10.625rem] sm:flex flex-col justify-start items-center">
             <div className="flex justify-around mt-20">
                 <div className="mr-[4.031rem]">

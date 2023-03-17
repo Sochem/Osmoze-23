@@ -34,7 +34,7 @@ export default function Sponsors(){
     return(
         <div className="flex flex-col items-center pb-12 mt-[14rem] sm:mx-[10.625rem]">
             <div className="font-extrabold items-center text-center sm:text-[36px] tracking-wider">Meet our</div>
-            <div className="font-extrabold items-center text-center sm:text-[64px] tracking-wider">sponsors</div>
+            <div className="font-extrabold items-center text-center sm:text-[48px] tracking-wider">Sponsors</div>
             <div className="flex justify-around mt-32 items-center">
                 <div className="hidden sm:block">
                     <button onClick={handleLeftClick}>
