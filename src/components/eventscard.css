@@ -137,8 +137,6 @@
   color:white;
   justify-content: center;
   align-items: flex-start;
-  
-  
 }
 .cc{
   border-bottom: 2px solid white;
@@ -146,7 +144,7 @@
 .footer-text{
   padding: 20px;
   margin: 20px;
-
+  text-align: center;
 }
 .image{
   padding: 20px;
@@ -227,7 +225,6 @@
   flex-direction: row;
   justify-content: flex-end;
   text-align: right;
-  
 }
 .text-2-button{
   font-size:24px;
