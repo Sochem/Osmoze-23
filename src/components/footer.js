@@ -3,27 +3,55 @@ import Image from "next/image";
 
 export default function Navbar() {
 	return (
-		<div className="footer">
-			<div className="content1">
-				<div className="hidden sm:block image">
-					<img src="/images/footerImage.svg" />
+		<div className="footer p-14">
+			<div className="content1 border-b-[1px] border-white">
+				<div className="image">
+					<Image
+						src="/images/footerImage.svg"
+						width={640}
+						height={640}
+					/>
 				</div>
 
 				<div className="text">
-					<div className="footer-text"><b>Osmoze'23</b></div>
+					<div className="footer-text">Osmoze'2023</div>
 					<div className="footer-text-2">
-						<div className="img"><Link href="https://www.facebook.com"><Image src="/images/social1.svg" width={40} height={40} /></Link></div>
-						<div className="img"><Link href="https://www.instagram.com"><Image src="/images/social2.svg" width={40} height={40} /></Link></div>
-						<div className="img"><Link href="https://www.linkedin.com"><Image src="/images/social3.svg" width={40} height={40} /></Link></div>
+						<div className="img">
+							<Link href="https://www.facebook.com/Osmoze.IITBHU?mibextid=ZbWKwL">
+								<Image
+									src="/images/social1.svg"
+									width={40}
+									height={40}
+								/>
+							</Link>
+						</div>
+						<div className="img">
+							<Link href="https://www.instagram.com/sochem_iitbhu/">
+								<Image
+									src="/images/social2.svg"
+									width={40}
+									height={40}
+								/>
+							</Link>
+						</div>
+						<div className="img">
+							<Link href="https://www.linkedin.com/company/osmoze-iit-bhu-/">
+								<Image
+									src="/images/social3.svg"
+									width={40}
+									height={40}
+								/>
+							</Link>
+						</div>
 					</div>
-					<div className="footer-text-1">
+					<div className="footer-text-3">
 						<div className="contact">
 							<div className="cc">Aditya Kumar Singh</div>
-						    <div>+91 9507510924</div>
+							<br></br>+91 9507510924
 						</div>
 						<div className="contact">
 							<div className="cc">Prince</div>
-						    <div>+91 9065765411</div>
+							<br></br>+91 9065765411
 						</div>
 					</div>
 				</div>
