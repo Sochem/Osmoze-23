@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Team() {
     return (
-        <div className="mt-[10.375rem] sm:mx-[10.625rem] pb-28 border-b-2 border-b-black">
+        <div className="mt-[10.375rem] sm:mx-[10.625rem] mx-12 pb-12 sm:pb-28 border-b-2 border-b-black">
 
             <div className="flex flex-col sm:flex-row justify-center">
                 <div className="hidden sm:block text-right mr-12 font-extrabold text-[48px] tracking-widest">Meet the Team <br></br>2022-23</div>

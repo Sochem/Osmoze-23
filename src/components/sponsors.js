@@ -33,8 +33,8 @@ export default function Sponsors() {
         <div>
 
             <div className="flex flex-col items-center pb-12 mt-[10rem] sm:mx-[10.625rem]">
-                <div className="font-extrabold items-center text-center sm:text-[36px] tracking-wider">Meet our</div>
-                <div className="font-extrabold items-center text-center sm:text-[48px] tracking-wider">Sponsors</div>
+                <div className="font-extrabold items-center text-center text-[20px] sm:text-[36px] tracking-wider">Meet our</div>
+                <div className="font-extrabold items-center text-center text-[px] sm:text-[48px] tracking-wider">sponsors</div>
             </div>
             <div style={{ width: "16rem", height: "16rem", margin: "0 auto 10rem auto" }}>
                 <Carousel autoPlay={true} infiniteLoop={true}>
