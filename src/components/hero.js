@@ -32,7 +32,7 @@ export default function Hero(){
                         </button>
                     </div>
                 </div>
-                <div className="z-20">
+                <div className="yy">
                     <Image src={"/images/hero-logo.svg"} width={501} height={501}/>
                 </div>
                 <div className="sm:hidden">

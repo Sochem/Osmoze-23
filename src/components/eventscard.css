@@ -33,6 +33,12 @@
     align-items: center;
    
 }
+.yy{
+  display: flex;
+  justify-content: center;
+  margin-top: -5%;
+  z-index: 20;
+}
 
 .heading{
     color:white;
