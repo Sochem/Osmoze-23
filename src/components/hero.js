@@ -27,8 +27,8 @@ export default function Hero(){
                         OSMOZE '23
                     </div>
                     <div className="hidden sm:block">
-                        <button className="font-medium text-[24px] text-white rounded-lg px-8 py-2 bg-gradient-to-r from-[#1CD1CC] to-[#6B68E5]">
-                            Registrations will open soon!
+                        <button className="font-medium mt-6 text-[24px] text-white rounded-lg px-8 py-2 bg-gradient-to-r from-[#1CD1CC] to-[#6B68E5]">
+                            Explore
                         </button>
                     </div>
                 </div>
@@ -37,7 +37,7 @@ export default function Hero(){
                 </div>
                 <div className="sm:hidden">
                         <button className="font-medium text-[24px] text-white rounded-lg px-8 py-2 bg-gradient-to-r from-[#1CD1CC] to-[#6B68E5]">
-                            Register
+                            Explore
                         </button>
                 </div>
             </div>
