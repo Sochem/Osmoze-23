@@ -21,16 +21,16 @@ export default function Footer() {
 					</div>
 				</div>
 
-				<div className="flex flex-col text-xl text-white font-extrabold pt-5 pr-32">
+				<div className="flex flex-col text-xl text-white pt-5 pr-32">
 					
-					<div className="flex flex-row sm:flex-row">
+					<div className="flex font-extrabold flex-row sm:flex-row">
 						Contact Us
-						<div className=" pr-5 pl-10">Aditya Kumar Singh</div>
-						<div className="font-normal">+919507510924</div>
+						<div className=" pr-5 pl-10 font-normal">Aditya Kumar Singh</div>
+						<div className="font-normal font-normal">+919507510924</div>
 					</div>
 
 
-					<div className="flex flex-row items-center">
+					<div className="flex flex-row  font-extrabold items-center">
 						Follow Us
 						<div className="footer-text-2 pl-6">
 							<div className="img">
