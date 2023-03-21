@@ -25,27 +25,13 @@
     
     position: relative;
     border-width: 15px;
-    border:4px solid green;
+    border:4px solid black;
     
     
-    background:green;
+    
     justify-content: center;
     align-items: center;
-    --notchSize: 30px;
-    background-color:green;
-  
-  clip-path: 
-  
-    polygon(
-      0% var(--notchSize), 
-      var(--notchSize) 0%, 
-      calc(100% - var(--notchSize)) 0%, 
-      100% var(--notchSize), 
-      100% calc(100% - var(--notchSize)), 
-      calc(100% - var(--notchSize)) 100%, 
-      var(--notchSize) 100%, 
-      0% calc(100% - var(--notchSize))
-    );
+   
 }
 
 .heading{
