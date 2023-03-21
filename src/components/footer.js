@@ -44,12 +44,14 @@ export default function Navbar() {
 							</Link>
 						</div>
 					</div>
-					<div className="footer-text-3">
-						<div className="contact">
+          
+					<div className="flex flex-col sm:flex-row">
+						<div className="p-6 text-[24px]">
+
 							<div className="cc">Aditya Kumar Singh</div>
 							<br></br>+91 9507510924
 						</div>
-						<div className="contact">
+						<div className="p-6 text-[24px]">
 							<div className="cc">Prince</div>
 							<br></br>+91 9065765411
 						</div>

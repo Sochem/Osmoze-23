@@ -5,9 +5,7 @@ export default function Midbutton() {
 	return (
 		<div className="text-button mr-14">
 			<div className="text-2-button mr-6">
-				
 					Click to explore the <br></br>Day of the Festival!
-				
 			</div>
 			<button>
 				

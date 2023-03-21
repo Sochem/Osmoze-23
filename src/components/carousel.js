@@ -2,20 +2,27 @@ import Image from "next/image";
 import React, { useEffect } from 'react';
 
 
-
-
 export default function Carousel() {
     return (
         <div className="carousel">
-            <div id="expandable">
-                <div className="text-1">
-                    Commemorate joy, happiness and festivity in
-                </div>
-                <div className="text-2">
-                    Exciting <br></br>&nbsp; &nbsp; &nbsp; &nbsp; Events
+            <div className="hidden sm:block">
+                <div id="expandable">
+                    <div className="text-1">
+                        Commemorate joy, happiness and festivity in
+                    </div>
+                    <div className="text-2">
+                        Exciting <br></br>&nbsp; &nbsp; &nbsp; &nbsp; Events
+                    </div>
                 </div>
             </div>
-
+            <div className="sm:hidden flex flex-col items-center justify-start mt-24">
+                <div className="tracking-wider font-extrabold text-[20px] text-center">
+                    Commemorate joy, happiness and<br></br> festivity in
+                </div>
+                <div className="mx-4 font-extrabold text-[32px] text-center tracking-widest">
+                    exciting events
+                </div>
+            </div>
 
             <div className="hidden border-b-2 border-b-black pb-12  mx-[10.625rem] sm:flex flex-col justify-start items-center">
                 <div className="flex justify-around mt-20">
@@ -48,7 +55,23 @@ export default function Carousel() {
                     </div>
                 </div>
             </div>
-            
+            <div className="sm:hidden border-b-black border-b-2 my-8 mx-12 flex flex-col justify-start items-center">
+                <div className="text-center my-8 text-[20px] font-medium">
+                    <Image src={'/images/chemcoding.svg'} width={233} height={255}/>
+                    <span>Chemoding</span>
+                </div>
+                <div className="text-center my-8 text-[20px] font-medium">
+                    <Image src={'/images/osmoclick.svg'} width={233} height={255}/>
+                    <span>Osmoclick</span>
+                </div>
+                <div className="text-center my-8 text-[20px] font-medium">
+                    <Image src={'/images/chess.svg'} width={233} height={255}/>
+                    <span>Chess</span>
+                </div>
+                <div className="pb-12 text-center tracking-widest font-extrabold text-[24px]">
+                    Memories <br></br> and learnings <br></br>woven together!
+                </div>
+            </div>
         </div>
     )
 }
