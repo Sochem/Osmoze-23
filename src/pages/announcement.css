@@ -1,0 +1,80 @@
+.bigBox{
+    background: #4B5EBF;
+    transition: background 1s ease;
+}
+
+.aHead {
+	padding-top: 176px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.heading {
+	font-family: "SF Pro Text";
+	font-style: normal;
+	font-weight: 800;
+	font-size: 64px;
+	line-height: 90px;
+	color: #EDDBB7;
+    margin-bottom: 66px;
+}
+
+
+.boxComponent {
+	/* background-color: bisque; */
+	padding: 0px 175px;
+	margin-bottom: 90px;
+	display: flex;
+	flex-direction: row;
+}
+.subHeading {
+	text-align: center;
+	font-family: "SF Pro Text";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 36px;
+	line-height: 50px;
+	letter-spacing: 0.1em;
+	margin-top: 125px;
+	padding-bottom: 36px;
+}
+.leftBox {
+	font-style: normal;
+	font-weight: 800;
+	font-size: 36px;
+	line-height: 50px;
+	letter-spacing: 0.1em;
+	color: #1f8893;
+	/* background-color: rgb(22, 177, 87); */
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+}
+
+.rightBox {
+	font-family: "SF Pro Text";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 33px;
+	display: flex;
+	align-items: center;
+	text-align: justify;
+	letter-spacing: 0.1em;
+	color: #000000;
+	width: 70%;
+	display: flex;
+	flex-direction: column;
+}
+
+.date {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 33px;
+	display: flex;
+	align-items: center;
+	text-align: justify;
+	letter-spacing: 0.1em;
+	color: black;
+}
