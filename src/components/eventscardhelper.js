@@ -1,17 +1,20 @@
 import Image from "next/image";
+import { useState } from 'react';
 
 export default function Card(props) {
-  var colors = ['#FC7021', '#1A97BA', '#188457', '#7EAF4B', '#753B9C','#C9522D','#4557B4','#EC368B','#FFB109'];
-  const style = {
-    
-    backgroundColor: colors[Math.floor(Math.random() * colors.length)],
-  };
+  const colors = ['#FC7021', '#1A97BA', '#188457', '#7EAF4B', '#753B9C', '#C9522D', '#4557B4', '#EC368B', '#FFB109'];
 
+
+  const [backgroundColor, setBackgroundColor] = useState(colors[Math.floor(Math.random() * colors.length)]);
+
+  const style = {
+    backgroundColor,
+  };
   
 
   
     return (
-      <div className="card-inner" style={style}>
+      <div className="card-inner" style={style} href={props.review}>
         <p className="heading">
           {props.name}
         </p>
@@ -26,9 +29,7 @@ export default function Card(props) {
             height={200}
             />
         </div>
-        <a className="content py-2" href={props.review}>
-          Link
-        </a>
+        
       </div>
     );
   }
