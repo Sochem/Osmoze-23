@@ -1,6 +1,6 @@
 import Mid from "@/components/mid"
 import Hero from "../components/hero"
-// import Midbutton from "@/components/midbutton"
+import Midbutton from "@/components/midbutton"
 import NextButton from "@/components/nextbutton"
 import Carousel from "@/components/carousel"
 import Team from "@/components/team"
@@ -58,11 +58,11 @@ export default function index() {
         <Navbar/>
         <Hero/>
         <Mid/>
-        <NextButton/>
+        
         <Carousel/>
         <NextButton/>
         <Team/>
-        <NextButton/>
+        <Midbutton/>
         <Sponsors/>
         <Footer/>
     </div>
